@@ -21,7 +21,7 @@ export default function Home() {
           href="./"
           className="bg-white rounded-lg py-4 pl-8 w-72 my-2 shadow hover:shadow-xl duration-200"
         >
-          🏠 The Clubhouse Show.
+          🏠 The Clubhouse Show
         </a>
         <a
           href="https://google.com"
