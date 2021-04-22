@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -10,10 +11,13 @@ export default function Home() {
       </Head>
 
       <div className="bg-primary min-h-screen flex flex-col items-center py-0.5 ">
-        {/* TODO: sticky title */}
-        <h1 className="text-5xl text-gray font-bold m-8 sticky top-0 pt-8 pb-2 py-4 bg-primary w-screen text-center">
-          🔗 Links
+        <h1 className="text-4xl text-gray font-bold mt-8 sticky top-0 pt-8 pb-2 bg-primary w-screen text-center">
+          <Image src="/home-icon.svg" width="28" height="28" />
+          The Cantonese Show
         </h1>
+        <h3 className="text-2xl text-gray font-bold m-4 sticky top-0 pt-4 pb-2 py-4 bg-primary w-screen text-center">
+          🔗 Links
+        </h3>
         {/* <h1 className="text-5xl text-white font-bold m-8 sticky top-0 bg-gray-800 w-72 text-center">🔗 Links</h1> */}
 
         <div className="grid grid-cols-1">
